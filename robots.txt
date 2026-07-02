@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemaps Link Location
+Sitemap: https://rameshgorain.com/sitemap.xml
