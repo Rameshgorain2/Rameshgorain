@@ -1,5 +1,15 @@
 User-agent: *
 Allow: /
+Allow: /*.js
+Allow: /*.css
+Allow: /*.webp
+Allow: /*.jpg
 
-# Sitemaps Link Location
-Sitemap: https://rameshgorain.com/sitemap.xml
+# Prevent crawling of unnecessary query strings if they happen
+Disallow: /*?*
+
+# Sitemaps
+Sitemap: https://rameshgorain.vercel.app/sitemap.xml
+
+# IndexNow AI Bot standard delay
+Crawl-delay: 1
